@@ -3,8 +3,16 @@
 # 05/02/2021
 
 
-
 # Objetivo: obtener estadísticos ráster entre dos momentos a comparar
+
+library(viridis)
+library(raster) # paquete sp se debería cargar tmb
+library(rgdal)
+library(lubridate)
+library(magrittr)
+library(reshape)
+library(ggplot2)
+library(sf)
 
 
 # ## # ## # ## # ## # ## # ## # ## # ## # ## # ## # ## # ## #
