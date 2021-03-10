@@ -140,6 +140,7 @@ theme_NO2cov <- function() {
         panel.background = element_rect(fill = "white",
                                         colour = "grey50"), 
         panel.grid = element_blank())
+  }
   
 graf2 + theme_NO2cov()
 
